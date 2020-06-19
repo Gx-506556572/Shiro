@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+    <Appenders>
+        <console name="Console" target="SYSTEM_OUT">
+            <patternlayout pattern="[%p] %m %n"/>
+        </console>
+    </Appenders>
+    <loggers>
+        <root level="ERROR">
+            <Appender-ref ref="Console"/>
+        </root>
+    </loggers>
+</configuration>
